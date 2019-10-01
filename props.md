@@ -20,9 +20,8 @@
 
 ```
 Componentname.defaultProps = {
-    title: "Helllo"
+    title: "Sample Title"
 }
-
 ```
 
 ### PropTypes
