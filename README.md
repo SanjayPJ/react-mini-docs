@@ -5,4 +5,5 @@ React JS Mini Documentation
 - [Components](components.md)
 - [Render Data to DOM](dom.md)
 - [Passing Props & PropTypes](props.md)
+- [State](state.md)
 - [Styling](style.md)
