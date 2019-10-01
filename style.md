@@ -18,3 +18,16 @@ function HelloWorldComponent() {
 ```
 
 *Otherwise add include it into component js file*
+
+
+### Include Bootstrap
+
+```
+npm install bootstrap
+```
+
+- In index.js
+
+```
+import 'bootstrap/dist/css/bootstrap.min.css'
+```
