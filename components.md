@@ -24,3 +24,31 @@ export default class Todos extends React.Component {
 }
 ```
 - *Import into parent component*
+
+### Class Based Component
+
+```
+import React from 'react';
+
+export default class ComponentName extends React.Component {
+	render() {
+		return (
+			<div></div>
+		);
+	}
+}
+```
+
+### Function Based Components
+
+```
+import React from 'react';
+
+const ComponentName = (props) => {
+  return (
+    <div></div>
+  )
+}
+
+export default ComponentName;
+```
