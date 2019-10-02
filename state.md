@@ -156,3 +156,13 @@ export default class App extends React.Component {
 ```
 this.setState({ show_info: !this.state.show_info })
 ```
+
+### Change state like this
+
+```
+const { contacts } = this.state
+const newContacts = contacts.filter(contact => contact.id !== id);
+this.setState({
+    contacts: newContacts
+})
+```
