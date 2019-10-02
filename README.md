@@ -10,4 +10,4 @@ React JS Mini Documentation
 - [Event Handling](event.md)
 - [Emit Events](emit.md)
 - [Context API](context-api.md)
-- [Working with Forms](forms.md)
+- [Working with Forms](form.md)
