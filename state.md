@@ -150,3 +150,9 @@ export default class App extends React.Component {
     }
 }
 ```
+
+### Modify State from a Component
+
+```
+this.setState({ show_info: !this.state.show_info })
+```
