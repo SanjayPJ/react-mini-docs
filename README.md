@@ -9,3 +9,4 @@ React JS Mini Documentation
 - [Styling Components](style.md)
 - [Event Handling](event.md)
 - [Emit Events](emit.md)
+- [Context API](context-api.md)
