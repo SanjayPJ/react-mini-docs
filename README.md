@@ -8,3 +8,4 @@ React JS Mini Documentation
 - [State of a Component](state.md)
 - [Styling Components](style.md)
 - [Event Handling](event.md)
+- [Emit Events](emit.md)
