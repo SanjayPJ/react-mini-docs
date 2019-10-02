@@ -7,3 +7,4 @@ React JS Mini Documentation
 - [Passing Props & PropTypes](props.md)
 - [State of a Component](state.md)
 - [Styling Components](style.md)
+- [Event Handling](event.md)
