@@ -149,4 +149,34 @@ export default class Contents extends React.Component {
 }
 ```
 
+### Updating Context
 
+- *inlcude it inside SomeContext.js*
+
+```
+changeState = () => {
+	this.setState({
+	    contacts: [{
+		"id": 2,
+		"name": "Ervin Howell",
+		"email": "Shanna@melissa.tv",
+		"phone": "010-692-6593 x09125",
+	    }]
+	});
+}
+```
+
+- *Pass this through Provider*
+
+```
+<ContactContext.Provider value={{...this.state, changeState: this.changeState}}>
+	{this.props.children}
+</ContactContext.Provider>
+```
+
+
+- *Call it from child component*
+
+```
+const { contacts, changeState } = context;
+```
