@@ -1,6 +1,10 @@
 ## Styling Components
 
 ```
+style={{ "cursor": "pointer" }}
+```
+
+```
 const divStyle = {
   color: 'blue',
   backgroundImage: 'url(' + imgUrl + ')',
