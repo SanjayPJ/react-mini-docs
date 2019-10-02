@@ -1,5 +1,7 @@
 ## Working with Forms
 
+#### Controled Components
+
 - *Add variables to state*
 
 - *Link that variables to inputs*
@@ -16,4 +18,40 @@
           [e.target.name]: e.target.value
       });
   }
+```
+
+#### Uncontrolled Components
+
+- *Add a defailt value*
+- *Add ref attribute*
+
+```
+<input defaultValue={phone} name="phone" type="text" className="form-control" ref={this.phoneInput} />
+```
+- *Add constructor*
+
+```
+constructor(props) {
+    super(props);
+
+    this.nameInput = React.createRef();
+    this.emailInput = React.createRef();
+    this.phoneInput = React.createRef();
+}
+```
+
+- *On Submit*
+
+```
+onSubmitHandler = (e) => {
+    e.preventDefault();
+
+    const contact = {
+        name: this.nameInput.current.value,
+        email: this.emailInput.current.value,
+        phone: this.phoneInput.current.value,
+    }
+
+    console.log(contact);
+}
 ```
