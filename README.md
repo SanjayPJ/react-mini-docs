@@ -11,3 +11,4 @@ React JS Mini Documentation
 - [Emit Events](emit.md)
 - [Context API](context-api.md)
 - [Working with Forms](form.md)
+- [React Router](router.md)
