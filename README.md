@@ -13,3 +13,4 @@ React JS Mini Documentation
 - [Working with Forms](form.md)
 - [React Router](router.md)
 - [Lifecycle Methods](lifecycle.md)
+- [Upload to Github Pages](github.md)
