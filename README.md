@@ -12,3 +12,4 @@ React JS Mini Documentation
 - [Context API](context-api.md)
 - [Working with Forms](form.md)
 - [React Router](router.md)
+- [Lifecycle Methods](lifecycle.md)
