@@ -1,4 +1,4 @@
-# react-mini-docs
+# React Mini Docs
 React JS Mini Documentation
 
 - [Installation](installation.md)
