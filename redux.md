@@ -34,7 +34,7 @@ export default store;
 import { Provider } from 'react-redux';
 import store from './store';
 ```
-- *then wrap everything inside <Provider store={store}></Provider>*
+- *then wrap everything inside `<Provider store={store}></Provider>`*
 - *Create reducers folder inside src folder*
 - *Create index.js inside reducers folder*
 - *Inside index.js*
