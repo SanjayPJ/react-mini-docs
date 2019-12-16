@@ -14,3 +14,4 @@ React JS Mini Documentation
 - [React Router](router.md)
 - [Lifecycle Methods](lifecycle.md)
 - [Upload to Github Pages](github.md)
+- [React Redux](redux.md)
