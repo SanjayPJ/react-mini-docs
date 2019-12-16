@@ -67,6 +67,8 @@ export default function(state = initialState, action) {
 ```
 npm update
 ```
+------
+
 
 - *create `src/actions/types.js`*
 
