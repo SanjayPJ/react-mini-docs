@@ -67,3 +67,40 @@ export default function(state = initialState, action) {
 ```
 npm update
 ```
+
+- *create `src/actions/types.js`*
+
+```
+export const GET_CONTACTS = 'GET_CONTACTS'
+```
+
+- *create `src/actions/contactActions.js`*
+
+
+```
+import { GET_CONTACTS } from "./types";
+
+export const getContacts = () => {
+    return {
+        type: GET_CONTACTS
+    }
+}
+```
+
+- *Inside a child component for accessing redux state data*
+
+```
+import { connect } from  'react-redux'
+import { getContacts } from '../../actions/contactActions'
+```
+
+```
+const mapStateToProps = state => ({
+  contacts: state.contact.contacts
+});
+
+export default connect(mapStateToProps, { getContacts })(Contacts);
+```
+
+- *can access it through props*
+
