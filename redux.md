@@ -62,7 +62,7 @@ export default function(state = initialState, action) {
 
 ```
 
-##TypeError: Object(…) is not a function (redux)
+## TypeError: Object(…) is not a function (redux)
 
 ```
 npm update
