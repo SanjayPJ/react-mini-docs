@@ -106,3 +106,20 @@ export default connect(mapStateToProps, { getContacts })(Contacts);
 
 - *can access it through props*
 
+- *if additional parameters are present ->*
+
+```
+export const deleteContact = (id) => {
+    return {
+        type: DELETE_CONTACT,
+        payload: id
+    }
+}
+
+export const addContact = (contact) => {
+    return {
+        type: ADD_CONTACT,
+        payload: contact
+    }
+}
+```
